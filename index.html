@@ -24,7 +24,8 @@
             </nav>
 
             <div class="auth-buttons">
-                <a href="#" class="login">Login</a>
+                <a href="#" class="login">Lo
+                    gin</a>
                 <a href="#" class="btn btn-primary">Sign up</a>
             </div>
 
@@ -64,7 +65,7 @@
             <div class="hero-image">
                 <!-- Replace with exact image from the design -->
                 <div class="image-wrapper">
-                    <img src="./images/dashboard.png" alt="Dashboard Illustration"
+                    <img style="width: 100%;" src="./images/dashboard.png" alt="Dashboard Illustration"
                         onerror="this.src='https://via.placeholder.com/600x450/f8f9fa/202F2D?text=Placeholder+Image'">
                 </div>
 
@@ -356,11 +357,11 @@
         const hamburger = document.querySelector('.hamburger');
         const navLinks = document.querySelector('.nav-links');
         const authButtons = document.querySelector('.auth-buttons');
-    
+
         hamburger.addEventListener('click', () => {
             navLinks.classList.toggle('active');
             authButtons.classList.toggle('active');
-            
+
             const icon = hamburger.querySelector('i');
             if (icon.classList.contains('fa-bars')) {
                 icon.classList.replace('fa-bars', 'fa-xmark');
